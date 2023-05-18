@@ -5,6 +5,7 @@ public class Cat {
 	String color;
 	double weight;
 	int age;
+	int money;
 
 	public Cat() {
 		super();
