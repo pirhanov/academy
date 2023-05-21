@@ -10,16 +10,16 @@ public class Cat {
 	public Cat() {
 		super();
 	}
-		public Cat(String nickname, String color, double weight, int age) {
-			super();
-			this.nickname=nickname;
-			this.color=color;
-			this.weight = weight;
-			this.age = age;
-			
-					
-			
-		}
+
+	public Cat(String nickname, String color, double weight, int age, int money) {
+		super();
+		this.nickname = nickname;
+		this.color = color;
+		this.weight = weight;
+		this.age = age;
+		this.money = money;
+
+	}
 
 	public void sleep() {
 		System.out.println(nickname + "спить");
@@ -39,7 +39,7 @@ public class Cat {
 
 	@Override
 	public String toString() {
-		return "nickname:" + nickname + "color:" + color + "weight" + weight + "age" + age;
+		return "nickname:" + nickname + "color:" + color + "weight" + weight + "age" + age + "money" + money;
 
 	}
 
